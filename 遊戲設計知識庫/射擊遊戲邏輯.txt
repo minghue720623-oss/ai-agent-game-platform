@@ -1,0 +1,4 @@
+ 射擊遊戲子彈程式邏輯技術彙整
+1. 基礎核心邏輯 (Core Logic)生成 (Spawn)： 初始化位置、槍口朝向與初速度。飛行 (Movement)： 每一幀的位移計算（\(P = P_{old} + V \times \Delta t\)）。碰撞 (Collision)： 使用 Trigger 或 Raycast 判定命中。銷毀 (Destruction)： 設定生命週期或命中後回收。
+2. 專業開發技術 (Pro Techniques)Hitscan (射線判定)： 瞬時命中，適合競技遊戲（如 CS/Valorant）。Projectile (物理實體)： 考量重力與飛行時間，適合戰場遊戲（如 Battlefield）。Object Pooling (物件池)： 核心效能優化，預先生成子彈以避免內存抖動。Predictive Raycast (預測射線)： 解決高速子彈「穿牆」的隧道效應問題。
+3. 進階工程實作 (Adv. Engineering)Lag Compensation (延遲補償)： 伺服器端的時間回溯判定，確保連線公平。ECS (數據導向設計)： 透過 Data-Oriented 方式批次處理上萬顆子彈。Ballistic Math (彈道數學)： 自定義空氣阻力與拋物線公式。
