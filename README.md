@@ -32,7 +32,7 @@
 
 我們將美學流程與 AI 代理架構完美結合：
 
-![AI Agent 遊戲開發流程圖](images/Game-Development-Pipeline-2026-05-28-123236.png)
+![AI Agent 遊戲開發流程圖](https://github.com/minghue720623-oss/ai-agent-game-platform/blob/main/Game%20Development%20Pipeline-2026-05-28-123236.png?raw=true)
 
 ### 開發流程四大階段
 1. **前置準備** — 知識庫建立與資料驗證  
