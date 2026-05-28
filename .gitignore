@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.vscode/
+.idea/
+*.mp4
+*.zip
+*.pdf
+資產管理規範.md
+團隊協作工作流.md
