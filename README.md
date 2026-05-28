@@ -57,7 +57,7 @@ PixelForge Games 採取高度模組化、角色分明的 Agent 團隊架構，�
 
 我們將 Landing Page 的流程美學與 AI 代理架構結合，以下是 PixelForge Games 的核心協作生態：
 
-![ai agent流程圖](Game Development Pipeline-2026-05-28-123236.png)
+![ai agent流程圖](ai-agent-game-platform/Game Development Pipeline-2026-05-28-123236.png)
 
 ### 團隊架構模組一覽表
 
